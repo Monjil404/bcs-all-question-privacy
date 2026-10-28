@@ -27,7 +27,7 @@
   </nav>
 
   <div class="meta">
-    Effective date: 29 September 2026 · App: BCS All Question (Android) · Package: <code>com.techeasylife.bcsallquestion</code><br>
+    Effective date: 28 October 2026 · App: BCS All Question (Android) · Package: <code>com.techeasylife.bcsallquestion</code><br>
     Developer: Monirujjaman Monjil — Tech Easy Life · Contact: <a href="mailto:phpmy404@gmail.com">phpmy404@gmail.com</a>
   </div>
 
@@ -36,7 +36,7 @@
     <ul class="bn">
       <li>অ্যাপে কোনো অ্যাকাউন্ট খুলতে হয় না। আমরা আপনার নাম, ফোন নম্বর, ইমেইল, অবস্থান বা কন্ট্যাক্ট সংগ্রহ করি না।</li>
       <li>আপনার উত্তর, ফলাফল, বুকমার্ক, অগ্রগতি ও সেটিংস শুধু আপনার ফোনেই থাকে; অ্যাপ মুছলে মুছে যায়।</li>
-      <li>বিনামূল্যে রাখতে অ্যাপে Google AdMob-এর বিজ্ঞাপন আছে; বিজ্ঞাপনের জন্য Google ডিভাইসের Advertising ID ও সাধারণ তথ্য ব্যবহার করে।</li>
+      <li>বিনামূল্যে রাখতে অ্যাপে Google AdMob-এর বিজ্ঞাপন আছে। AdMob-এর মাধ্যমে Meta Audience Network-ও বিজ্ঞাপন দিতে পারে। বিজ্ঞাপনের জন্য তারা ডিভাইসের Advertising ID ও সাধারণ তথ্য ব্যবহার করে।</li>
       <li>নতুন প্রশ্ন, চাকরির খবর ও রিমাইন্ডারের নোটিফিকেশন পাঠাতে OneSignal একটি নোটিফিকেশন আইডি ব্যবহার করে; চাইলে বন্ধ করতে পারেন।</li>
       <li>প্রশ্নে ভুল রিপোর্ট করলে শুধু কারণ, আপনার লেখা মন্তব্য (ঐচ্ছিক) ও অ্যাপের ভার্সন আমাদের কাছে আসে — কোনো পরিচয় নয়।</li>
       <li>আমরা কোনো তথ্য বিক্রি করি না।</li>
@@ -82,6 +82,13 @@
             requested after you answer Google's consent message.</td>
         </tr>
         <tr>
+          <td>Advertising ID, device model and OS version, IP address, app and ad interaction data</td>
+          <td>Meta Audience Network (Meta Platforms, Inc. / Meta Platforms Ireland Ltd.), through AdMob mediation</td>
+          <td>AdMob may let Meta Audience Network bid for and show some of the app's ads; Meta uses this data to serve and
+            measure those ads and to prevent fraud. In the EEA, UK and Switzerland it receives ad requests only according to
+            your answer to the consent message.</td>
+        </tr>
+        <tr>
           <td>Push notification token, device model, OS version, language, time zone, IP address (used for an approximate
             country), app sessions and notification opens</td>
           <td>OneSignal, Inc.</td>
@@ -113,8 +120,10 @@
   <section>
     <h2>5. Advertising</h2>
     <ul>
-      <li>Ads are provided by Google AdMob. Google may use the Advertising ID and cookies to show ads, which may be
-        personalised if you allow it. See <a href="https://policies.google.com/technologies/ads">how Google uses information in ads</a>.</li>
+      <li>Ads are provided by Google AdMob. Through AdMob mediation, some ads may be served by Meta Audience Network. These
+        providers may use the Advertising ID and similar technologies to show ads, which may be personalised if you allow it.
+        See <a href="https://policies.google.com/technologies/ads">how Google uses information in ads</a> and
+        <a href="https://www.facebook.com/privacy/policy/">Meta's Privacy Policy</a>.</li>
       <li>Where the law requires it (EEA, UK, Switzerland), the app shows Google's consent message before any ad is requested,
         and you can change your choice later from the app's Settings (“বিজ্ঞাপনের গোপনীয়তা”).</li>
       <li>You can reset or delete your Advertising ID, or opt out of personalised ads, in your phone's
@@ -130,7 +139,8 @@
       <li><strong>Notifications</strong> (Android 13 and later asks you) — for push notifications and the daily study reminder.
         The app works fully if you refuse.</li>
       <li><strong>Run at start-up</strong> (RECEIVE_BOOT_COMPLETED) — to set the daily reminder again after the phone restarts.</li>
-      <li><strong>Advertising ID</strong> (AD_ID and Android's ad services permissions) — used by Google AdMob as described above.</li>
+      <li><strong>Advertising ID</strong> (AD_ID and Android's ad services permissions) — used by Google AdMob and, through it,
+        Meta Audience Network as described above.</li>
       <li><strong>Notification support</strong> added by the notification service: vibration, wake lock, app icon badges and
         Firebase Cloud Messaging.</li>
     </ul>
@@ -140,7 +150,8 @@
     <h2>7. Sharing and selling</h2>
     <p>We do not sell personal information and do not share it for purposes other than those above. Information reaches only
       the service providers listed in section 4, who process it under their own privacy policies:
-      <a href="https://policies.google.com/privacy">Google</a> and <a href="https://onesignal.com/privacy_policy">OneSignal</a>.
+      <a href="https://policies.google.com/privacy">Google</a>, <a href="https://www.facebook.com/privacy/policy/">Meta</a>
+      and <a href="https://onesignal.com/privacy_policy">OneSignal</a>.
       We may disclose information if required by law.</p>
   </section>
 
@@ -159,7 +170,8 @@
       <li><strong>Notifications:</strong> turn notifications off for the app in Android Settings; uninstalling ends the
         notification subscription. You may also ask us to delete your notification record.</li>
       <li><strong>Question reports:</strong> kept only as long as needed to correct the content.</li>
-      <li><strong>Advertising data:</strong> managed by Google; reset or delete your Advertising ID as described in section 5.</li>
+      <li><strong>Advertising data:</strong> managed by Google and Meta under their own policies; reset or delete your
+        Advertising ID as described in section 5.</li>
       <li>To request deletion of any information we hold, email <a href="mailto:phpmy404@gmail.com">phpmy404@gmail.com</a>.
         Because the app has no accounts, include the approximate date and what you sent (for example, a question report) so
         we can find it. Step-by-step instructions: <a href="./delete-data.html">Delete your data</a>.</li>
